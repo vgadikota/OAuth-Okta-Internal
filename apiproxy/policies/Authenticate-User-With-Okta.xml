@@ -22,6 +22,6 @@
     <Response>calloutResponse</Response>
     <HTTPTargetConnection>
         <Properties/>
-        <URL>https://epam-vidheergadikota-admin.okta.com/api/v1/authn</URL>
+        <URL>https://vgadikota-admin.okta.com/api/v1/authn</URL>
     </HTTPTargetConnection>
 </ServiceCallout>
