@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="7" name="Oauth-okta-internal">
+    <Basepaths>/oauth-okta-internal</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1526562387198</CreatedAt>
+    <CreatedBy>vgadikota@google.com</CreatedBy>
+    <Description>Apigee token minted internally with Okta integration</Description>
+    <DisplayName>Oauth-okta-internal</DisplayName>
+    <LastModifiedAt>1526562387198</LastModifiedAt>
+    <LastModifiedBy>vgadikota@google.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:c83bb364fe457de78b53a4a21058c68bea6c7faa64732f1aa3e74594d282747f3d322f668f4584bcf1945a763bb22255e970f85e446eb608d040441f8afa0006</ManifestVersion>
+    <Policies>
+        <Policy>AccessTokenRefresh</Policy>
+        <Policy>AccessTokenRequest</Policy>
+        <Policy>AccessTokenResponse</Policy>
+        <Policy>AccessTokenResponseCC</Policy>
+        <Policy>AccessTokenResponseRT</Policy>
+        <Policy>Authenticate-User-With-Okta</Policy>
+        <Policy>Extract-Okta-User-Info</Policy>
+        <Policy>JsonToXml</Policy>
+        <Policy>Raise-Authentication-Exception</Policy>
+        <Policy>Send404NotFoundResponse</Policy>
+        <Policy>SetOktaTokenStatus</Policy>
+        <Policy>SetValidTokenResponse</Policy>
+        <Policy>VerifyAccessToken</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>SetOktaTokenStatus</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>
